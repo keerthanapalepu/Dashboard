@@ -16,14 +16,17 @@ Redis is used as the primary database for the system, which is a fast, open sour
 
 **Page1**
 The existence of this session will state the user **authentication status**. After authentication, the PHP `$_SESSION` super global variable will contain the user id. That is, the $_SESSION[“Player_name”] is set to manage the logged-in session. 
+<br />
 <img src="https://user-images.githubusercontent.com/98457650/180227779-6c69dd27-3d6a-4b60-b886-a074decf5bd3.png" width="50%" height="50%">
 
 **Page2**
 The score of each player will be saved in the **redis** database. and the score will be retrieved from the redis when the player returns
+<br />
 <img src="https://user-images.githubusercontent.com/98457650/180250918-0f4e53a4-11c1-4e8b-a30d-3c39185279fd.png" width="50%" height="50%">
 
 **Page3**
 Displays the dice game scores by averaging the scores and the number of chances played by the user
+<br />
 <img src="https://user-images.githubusercontent.com/98457650/180251066-17c94ba3-5bfb-48f7-bed3-7716b6b3e1ab.png" width="50%" height="50%">
 
 ## Credits
