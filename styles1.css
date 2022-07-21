@@ -1,0 +1,47 @@
+body{
+    background-image: url("https://www.itl.cat/pngfile/big/299-2995356_download-hd-dice-computer-wallpaper-id-black-dice.jpg");
+    /* object-fit: cover; */
+    background-size: cover;
+    color: #fff;
+}
+h1{
+    color: #D77FA1;
+}
+
+.container{
+    /* position: absolute;
+    left: 50%;
+    top: 45%; */
+    margin-left: 52%;
+    margin-top: 16%;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    width: 30%;
+    height: 38%;
+    /* margin: auto; */
+}
+
+.button{
+  display: inline-block;
+  width: 130px;
+  height: 40px;
+  line-height: 30px;
+  margin-left: 1rem;
+  text-align: center;
+}
+
+.container .input1{
+    /* width: 40%; */
+    margin: auto;
+    margin-top: 0;
+}
+
+.row{
+    padding: 0 2.5rem 0 2.5rem;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 1.15rem;
+}

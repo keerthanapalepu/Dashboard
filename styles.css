@@ -1,0 +1,51 @@
+table{
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 2%;
+    box-shadow: 2px 2px 10px 2px #888888;
+}
+thead{
+    color : white;
+    background-color: black;
+}
+th,td{
+    width : 200px;
+}
+tr{
+  height : 40px;
+  width : 20px;
+}
+
+.button{
+    color : rgb(255, 255, 255);
+    background-color : red;
+    border : none ;
+    width : 70px;
+    height : 25px;
+  }
+
+  .button:hover{
+      background-color: maroon;
+  }
+
+body{
+    background-image: url("images/diceimg2.jpg");
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#container{
+    margin-left: 5%;
+    margin-top: 10%;
+    backdrop-filter: blur(10px);
+    width: 50%;
+    text-align: center;
+}
+
+#heading{
+    margin: auto;
+    padding-top: 2%;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 8px;
+    
+}
